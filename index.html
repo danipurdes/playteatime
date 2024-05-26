@@ -5,11 +5,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    <!-- Header/Title-->
     <h1 class="hero text-3xl font-bold bg-base-200">
         <div class="hero-content flex-col lg:flex-row" style="gap:0rem">
             <img src="./icons/teapot.svg" class="size-14"/>Tea Time Game
         </div>
     </h1>
+    <!-- Hero Section -->
     <div class="hero bg-base-200" style="min-height:40vh">
         <div class="hero-content flex-col lg:flex-row-reverse">
             <video width="320" height="230" controls class="rounded-lg shadow-2xl" style="width:50vw">
@@ -23,11 +25,25 @@
             </div>
         </div>
     </div>
-    <div class="divider-neutral"></div>
-    <div class="grid grid-cols-3 justify-items-center">
-        <p>placeholder 1</p>
-        <p>placeholder 2</p>
-        <p>placeholder 3</p>
+    <div class="divider" style="margin-top: 0rem; height: 0rem"></div>
+    <!-- Features Section -->
+    <div class="grid grid-cols-3 py-8 px-32 text-center text-balance">
+        <div class="flex flex-col items-center">
+            <img src="./icons/leaf.svg" class="size-20"/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, 
+                scelerisque purus. Ut auctor gravida nulla.</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="./icons/basket.svg" class="size-20"/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, 
+                scelerisque purus. Ut auctor gravida nulla.</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="./icons/teacup.svg" class="size-20"/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis felis convallis, rhoncus leo id, 
+                scelerisque purus. Ut auctor gravida nulla.</p>
+        </div>
     </div>
+    <div class="divider"></div>
 </body>
 </html>
