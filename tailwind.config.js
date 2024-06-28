@@ -1,5 +1,6 @@
 module.exports = {
-    daisyui: {
-      themes: ["lemonade"],
-    },
+  content: ["./src/**/*.{html,js}"],
+  daisyui: {
+    themes: ["lemonade"],
+  },
   }
