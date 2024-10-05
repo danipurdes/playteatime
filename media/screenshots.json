@@ -1,0 +1,22 @@
+[
+    {
+        "image": "tea_trees_web.png",
+        "description": "Harvest fresh tea leaves to prepare them for processing."
+    },
+    {
+        "image": "machines_web.png",
+        "description": "Feed tea leaves into the leaf crusher, then deposit them in an oxidizer to produce green or black tea."
+    },
+    {
+        "image": "blending_web.png",
+        "description": "Take your processed tea to the blending area to customize the tea to your customer's taste."
+    },
+    {
+        "image": "brewing_web.png",
+        "description": "With the blend complete, it's time to boil some water and brew the tea."
+    },
+    {
+        "image": "order_complete_web.png",
+        "description": "Serve the finished cup of tea to the customer, and receive a rating based on how well your brew matched their order."
+    }
+]
